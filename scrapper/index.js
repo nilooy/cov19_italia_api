@@ -24,6 +24,7 @@ const scrapper = (req, res) => {
       endpoints: {
         regione: "/regione",
         province: "/province",
+        stats: "/stats",
       },
     });
   }

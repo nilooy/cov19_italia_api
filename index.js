@@ -2,14 +2,11 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 require("dotenv").config();
-const scrapper = require("./scrapper");
 
+const router = require("./route");
 app.use(cors());
 
-app.get("/", scrapper);
-app.get("/stats", scrapper);
-app.get("/regione", scrapper);
-app.get("/province", scrapper);
+app.use(router);
 
 const port = process.env.PORT || 8000;
 

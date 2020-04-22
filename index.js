@@ -5,8 +5,9 @@ require("dotenv").config();
 
 const router = require("./route");
 app.use(cors());
+const init_path = "/api";
 
-app.use(router);
+app.use(init_path, router);
 
 const port = process.env.PORT || 8000;
 

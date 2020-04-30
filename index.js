@@ -7,6 +7,8 @@ const router = require("./route");
 app.use(cors());
 const init_path = "/api";
 
+app.use(init_path, express.static(__dirname + "/public"));
+
 app.use(init_path, router);
 
 const port = process.env.PORT || 8000;

@@ -9,7 +9,7 @@ stats: '/stats'
 ## THIS API IS HOSTED ON GOOGLE CLOUD
 
 url: {
-regione: "https://cov19api.com/api/regione",
-province: "https://cov19api.com/api/province",
-stats: 'https://cov19api.com/api/stats'
+regione: "https://cov19live.it/api/regione",
+province: "https://cov19live.it/api/province",
+stats: 'https://cov19live.it/api/stats'
 }

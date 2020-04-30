@@ -14,8 +14,8 @@ LIVE COVID19 DATA COLLECTED FROM PROTEZIONE CIVILE REPO: https://github.com/pcm-
 
 ## url:
 
-#regione: "https://cov19live.it/api/regione"
+# Regione: https://cov19live.it/api/regione
 
-#province: "https://cov19live.it/api/province"
+# Provincia: https://cov19live.it/api/province
 
-#stats: 'https://cov19live.it/api/stats'
+# Statistica: https://cov19live.it/api/stats
